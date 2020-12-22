@@ -11,13 +11,5 @@ connection.connect(function(err){
     console.log("Connected to database");
 });
 
-// connection.query(`
-// CREATE TABLE IF NOT EXISTS
-// CREATE TABLE IF NOT EXISTS
-// CREATE TABLE IF NOT EXISTS
-// CREATE TABLE IF NOT EXISTS
-// CREATE TABLE IF NOT EXISTS
-
-// `)
 
 module.exports = connection;
