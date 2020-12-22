@@ -1,8 +1,7 @@
-const config = require('./config');
+const config = require('../modules/config');
 const jwt = require('jsonwebtoken');
 
-const checkthetoken = (req, res, next) => {
-    let decoded = jwt.verify(req.headers.authorization, config.secret)
-}
+//___middleware token
 
-module.exports
+module.exports 
+
